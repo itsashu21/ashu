@@ -1,0 +1,45 @@
+a = [1, "hi", "python", 2]
+print (a[3:]);
+print (a[0:2]);
+print (a);
+print (a + a);
+print (a * 3);
+fruits = ["apple","banana","cherry"]
+print (fruits)
+print (fruits[1])
+for x in fruits:
+        print(x)
+if "appple" in fruits:
+        print("yes, 'apple' is in the fruits list")
+fruits.insert(1, "orange")              
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.pop(0)
+print(fruits)
+fruits.clear()
+print(fruits)
+fruits = list(("apple","banana","cherry","apple","banana","cherry"))
+print(fruits)
+x=10,fruits.copy()
+print(x)
+print(type(x))
+x = fruits.count("cherry")
+print(x)
+points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+x = points.count(9)
+print(x)
+cars = ["as","ass","adsd"]
+cars1 = ["asdfs","fdsass","adsgdrgd"]
+cars2 = ["as4t","assdfs","adsfsd"]
+cars3 = ["as4","asssdf","afsdsd"]
+fruits.extend(cars)
+fruits.extend(cars1)
+fruits.extend(cars2)
+fruits.extend(cars3)
+print(fruits)
+cars = ["as","ass","adsd"]
+cars.sort()
+print(cars)
