@@ -1,0 +1,4 @@
+a="4"
+b="8"
+print("Before Swapping"+" "+a+b)
+print("Aftre Swapping"+" "+b+a)
