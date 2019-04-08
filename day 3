@@ -1,0 +1,20 @@
+thisdict={"brand": "Audi","model": "A4","year": 1900}
+thisdict["year"] = 2018
+for x in thisdict:
+    print (x)
+for x in thisdict:
+    print(thisdict[x])
+thisdict={"brand":"Audi","model":"A4","year": 1900}
+if "model" in thisdict:
+    print("yes,'model' is one of the keys in the thisdict dictionary")
+print(len(thisdict))
+thisdict={"brand": "Audi","model": "A4","year": 1900}
+thisdict.pop("model")
+print(thisdict)
+thisdict={"brand": "Audi", "model": "A4","year": 1900}
+mydict = thisdict.copy()
+print(mydict)
+x = ('k1','k2','k3')
+y = (1)
+thisdict = dict.fromkeys(x, y)
+print(thisdict)
